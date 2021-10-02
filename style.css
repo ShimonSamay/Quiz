@@ -15,8 +15,8 @@ align-items: center;
 video {
 position: absolute;
 z-index: -1000; 
-width: 100%;
-height: 100%;
+width: 100vw;
+height: 100vh;
 object-fit: cover;
 filter: brightness(45%);
 }
@@ -84,6 +84,7 @@ padding: 15px 15px 15px 15px;
 border-radius: 2px;
 border-color: transparent;
 font-weight: bold;
+font-size: 20px;
 }
 
 @media screen and (max-width:450px) {
@@ -113,7 +114,7 @@ margin-top: 12% ;
 }
 
 input {
-font-size: 10px;
+font-size: 20px;
 font-weight: bold;
 }
 };
