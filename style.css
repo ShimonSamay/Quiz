@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 #quizContainer {
@@ -86,6 +86,16 @@ border-color: transparent;
 font-weight: bold;
 font-size: 20px;
 }
+
+/* #loader {
+width: 30vw;
+height: 30vw;
+margin-right: 15vw;
+width: 10vw;
+height: 50vh;
+margin-right: 35vw;
+z-index: 100;
+} */
 
 @media screen and (max-width:450px) {
 
