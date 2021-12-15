@@ -205,7 +205,7 @@ playerInput.value.toLowerCase() == questionsArray[current].answer.toLowerCase() 
 rigthAnswer () : wrongAnswer () ;   
 }
 else {
-gameOver();
+gameOver ();
 }
 });
 
