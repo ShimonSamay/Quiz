@@ -47,7 +47,7 @@ answer : "South africa"
 question: "World cup winning record nation ?" ,
 options: [
 "https://cdn.pixabay.com/photo/2013/07/13/14/14/argentina-162229__480.png",
-"https://cdn.pixabay.com/photo/2021/06/19/19/22/israel-6349315__340.png",
+"https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png ",
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
 ],
@@ -199,33 +199,69 @@ opt4.src = questionsArray[current].options[3]
 
 
 
-gameBtn.addEventListener("click" , ()=>{
-if (playerInput.value.toLowerCase() == questionsArray[current].answer.toLowerCase()){
-userScore += 100 ;
-scoreShow.innerText= `Score: ${userScore}` ;
-current++ ;
-currentQuestion.innerText = questionsArray[current].question;
-opt1.src = questionsArray[current].options[0];
-opt2.src = questionsArray[current].options[1];
-opt3.src = questionsArray[current].options[2];
-opt4.src = questionsArray[current].options[3];
-playerInput.value = "" ;
+gameBtn.addEventListener("click" , () => {
+if (current != questionsArray.length-1) {
+playerInput.value.toLowerCase() == questionsArray[current].answer.toLowerCase() ?
+rigthAnswer () : wrongAnswer () ;   
 }
-else { 
-userScore -=100 ;
-scoreShow.innerText=`Score: ${userScore}` ;
-current++ ;
-console.log(current);
-currentQuestion.innerText = questionsArray[current].question ;
-opt1.src = questionsArray[current].options[0];
-opt2.src = questionsArray[current].options[1];
-opt3.src = questionsArray[current].options[2];
-opt4.src = questionsArray[current].options[3];
-playerInput.value = "" ;
+else {
+gameOver();
 }
 });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function gameOver () {
+quiz.style.display = "none" ;
+question.style.display = "none" ;
+scoreShow.style.marginTop = "40vh" ;
+}
+
+
+function rigthAnswer () {
+    userScore += 100 ;
+        scoreShow.innerText = `Score: ${userScore}` ;
+        current++ ;
+        currentQuestion.innerText = questionsArray[current].question;
+        opt1.src = questionsArray[current].options[0];
+        opt2.src = questionsArray[current].options[1];
+        opt3.src = questionsArray[current].options[2];
+        opt4.src = questionsArray[current].options[3];
+        playerInput.value = "" ;
+}
+
+function wrongAnswer () {
+    userScore -=100 ;
+    scoreShow.innerText =`Score: ${userScore}` ;
+    current++ ;
+    currentQuestion.innerText = questionsArray[current].question ;
+    opt1.src = questionsArray[current].options[0];
+    opt2.src = questionsArray[current].options[1];
+    opt3.src = questionsArray[current].options[2];
+    opt4.src = questionsArray[current].options[3];
+    playerInput.value = "" ;   
+}
 
 
 
