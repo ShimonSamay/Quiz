@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#quizContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#quizContainer video {
+  position: absolute;
+  z-index: -1000;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(45%);
+}
+#quizContainer #quiz {
+  margin-top: 10%;
+  width: 50vw;
+  height: 55vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#quizContainer #question {
+  position: absolute;
+  margin-bottom: 50vh;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+#quizContainer #score {
+  position: absolute;
+  margin-bottom: 80vh;
+  color: whitesmoke;
+  font-size: 85px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#quizContainer .answerContainer {
+  width: 46%;
+  height: 42%;
+}
+#quizContainer .answerContainer > .pics {
+  width: 90%;
+  height: 90%;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+#quizContainer .answerContainer > .pics:hover {
+  transform: scale(1.1);
+}
+#quizContainer .rightPick {
+  border: 5px solid green;
+}
+#quizContainer .wrongPick {
+  border: 5px solid red;
+}
+
+@media screen and (max-width: 450px) {
+  #quizContainer #score {
+    font-size: 55px;
+  }
+  #quizContainer #question {
+    font-size: 27px;
+    margin-bottom: 60vh;
+  }
+  #quizContainer #quiz {
+    width: 95vh;
+    height: 53vh;
+  }
+  #quizContainer .answerContainer {
+    margin-top: 10%;
+    width: 43%;
+    height: 33%;
+  }
+}/*# sourceMappingURL=style.css.map */

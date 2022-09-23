@@ -7,7 +7,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png", 
 "https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png "
 ] ,
-answer : "Spain"
+answer :"https://cdn.pixabay.com/photo/2013/07/13/14/17/spain-162428__480.png"
 } ,
 
 {
@@ -18,7 +18,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png" ,
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png"
 ] ,
-answer : "brazil" 
+answer : "https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531_960_720.png"
 } , 
 
 {
@@ -29,7 +29,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png",
 "https://cdn.pixabay.com/photo/2015/11/12/15/52/flag-1040530__340.png"
 ],
-answer : "italy"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326__480.png"
 } ,
 
 {
@@ -40,18 +40,18 @@ options: [
 "https://cdn.pixabay.com/photo/2013/07/13/14/17/south-africa-162425__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
 ],
-answer : "South africa"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/17/south-africa-162425__340.png"
 },
 
 {
 question: "World cup winning record nation ?" ,
 options: [
 "https://cdn.pixabay.com/photo/2013/07/13/14/14/argentina-162229__480.png",
-"https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png ",
+"https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png",
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
 ],
-answer : "brazil"
+answer : "https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png"
 },
 
 {
@@ -62,7 +62,7 @@ options: [
 "https://cdn.pixabay.com/photo/2017/10/31/23/52/greece-2906823__340.png",
 "https://cdn.pixabay.com/photo/2012/04/10/23/24/mexico-26989__480.png"
 ],
-answer : "japan"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/japan-162328__480.png"
 },
 
 {
@@ -73,7 +73,7 @@ options: [
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 ],
-answer : "greece"
+answer : "https://cdn.pixabay.com/photo/2017/10/31/23/52/greece-2906823__340.png"
 },
 
 {
@@ -84,7 +84,7 @@ options: [
 "https://cdn.pixabay.com/photo/2013/07/13/14/17/spain-162428__480.png" ,
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 ],
-answer : "spain"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/17/spain-162428__480.png"
 },
 
 {
@@ -95,7 +95,7 @@ options: [
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
 ],
-answer : "germany"
+answer : "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png"
 },
 
 {
@@ -106,7 +106,7 @@ options: [
 "https://cdn.pixabay.com/photo/2013/07/13/14/14/argentina-162229__480.png",
 "https://cdn.pixabay.com/photo/2012/04/10/23/24/mexico-26989__480.png"
 ],
-answer : "france"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 },
 
 {
@@ -117,7 +117,7 @@ options: [
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png",
 "https://cdn.pixabay.com/photo/2014/04/02/11/12/brazil-305531__340.png " 
 ],
-answer : "holland"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
 },
 
 {
@@ -128,7 +128,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/14/14/argentina-162229__480.png",
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 ] ,
-answer : "france"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 },
 
 {
@@ -138,9 +138,8 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png" ,
 "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017__340.png",
 "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486__480.png"
-
 ] ,
-answer : "france"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 },
 
 {
@@ -151,7 +150,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/14/16/norway-162381__480.png" ,
 "https://cdn.pixabay.com/photo/2020/02/28/02/21/finland-4886331__340.png" ,
 ] ,
-answer : "poland"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/16/poland-162393__480.png"
 },
 
 {
@@ -162,7 +161,7 @@ options : [
 "https://cdn.pixabay.com/photo/2015/11/04/14/07/flag-1022605__480.png" ,
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326__480.png"
 ] ,
-answer : "france"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295__480.png"
 },
 
 {
@@ -173,7 +172,7 @@ options : [
 "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326__480.png",
 "https://cdn.pixabay.com/photo/2013/07/13/14/17/spain-162428__480.png" ,
 ] ,
-answer : "portugal"
+answer : "https://cdn.pixabay.com/photo/2013/07/13/14/16/portugal-162394__480.png"
 }
 ];
 
@@ -182,11 +181,9 @@ let opt2 = document.getElementById("option2");
 let opt3 = document.getElementById("option3");
 let opt4 = document.getElementById("option4");
 let quiz = document.getElementById("quiz") ;
+let pics = Array.from(document.getElementsByClassName("pics"));
 let currentQuestion = document.getElementById("question");
 let scoreShow = document.getElementById("score");
-let playerInput = document.getElementById("input");
-let gameBtn = document.getElementById("gameBtn");
-
 
 let current = 0 ;
 let userScore = 0 ;
@@ -198,70 +195,76 @@ opt3.src = questionsArray[current].options[2]
 opt4.src = questionsArray[current].options[3]
 
 
-
-gameBtn.addEventListener("click" , () => {
-if (current != questionsArray.length-1) {
-playerInput.value.toLowerCase() == questionsArray[current].answer.toLowerCase() ?
-rigthAnswer () : wrongAnswer () ;   
-}
-else {
-gameOver ();
-}
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function gameOver () {
 quiz.style.display = "none" ;
 question.style.display = "none" ;
-scoreShow.style.marginTop = "40vh" ;
+scoreShow.style.marginTop = "40vh";
 }
 
-
-function rigthAnswer () {
+function rightAnswer () { 
     userScore += 100 ;
-        scoreShow.innerText = `Score: ${userScore}` ;
-        current++ ;
-        currentQuestion.innerText = questionsArray[current].question;
-        opt1.src = questionsArray[current].options[0];
-        opt2.src = questionsArray[current].options[1];
-        opt3.src = questionsArray[current].options[2];
-        opt4.src = questionsArray[current].options[3];
-        playerInput.value = "" ;
+    scoreShow.innerText = `Score: ${userScore}` ;
+    current++ ;
+    if (current == questionsArray.length) return gameOver();
+    currentQuestion.innerText = questionsArray[current].question;
+    opt1.src = questionsArray[current].options[0];
+    opt2.src = questionsArray[current].options[1];
+    opt3.src = questionsArray[current].options[2];
+    opt4.src = questionsArray[current].options[3];
 }
 
 function wrongAnswer () {
-    userScore -=100 ;
-    scoreShow.innerText =`Score: ${userScore}` ;
     current++ ;
+    if (current == questionsArray.length) return gameOver();
     currentQuestion.innerText = questionsArray[current].question ;
     opt1.src = questionsArray[current].options[0];
     opt2.src = questionsArray[current].options[1];
     opt3.src = questionsArray[current].options[2];
     opt4.src = questionsArray[current].options[3];
-    playerInput.value = "" ;   
 }
+
+function getCountryFlagName (src = "") {
+   return src.slice(src.lastIndexOf("/")+1 , src.lastIndexOf("-"));
+}
+
+
+function handleUserChoice () {
+for(let el of pics) {
+    el.addEventListener("click" , () => {
+        if(el.src === questionsArray[current].answer) {
+         el.classList.add("rightPick") ;
+         return setTimeout(() => {
+            rightAnswer();
+            el.classList.remove("rightPick");
+         } , 1000)
+        } 
+        el.classList.add("wrongPick") ;
+         setTimeout(() => {
+            wrongAnswer();
+            el.classList.remove("wrongPick")
+         } , 1000)
+ }
+ )
+}
+}
+
+handleUserChoice();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
