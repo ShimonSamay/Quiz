@@ -5,7 +5,7 @@
 
 ## 🛠 Developed using :
  ✔ HTML \
- ✔ Sass \
+ ✔ SCSS \
  ✔ Javascript
  
 ![Screenshot](https://user-images.githubusercontent.com/87431321/191947992-9e96df31-ec22-4063-8459-6bb948d34f45.png)
